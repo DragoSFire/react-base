@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
 	entry : {
 		app : path.resolve(__dirname, 'app/main.js'),
-		vendors : ['react', 'material-ui/lib/raised-button'] //todo: добавить автоматическую выверку используемых моделей
+		vendors : ['react', 'material-ui/lib/raised-button'] //todo: добавить автоматическую выверку используемых зависимостей
 	},
 	output : {
 		path : __dirname + '/build',
